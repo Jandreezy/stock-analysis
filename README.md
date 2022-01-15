@@ -9,7 +9,7 @@ The purpose of this project is to refactor a Microsoft Excel VBA code for stocks
 The data that was provided included two sheets with information from 12 different stocks. The sheets contained the ticker, date, and volume as well as the opening, highest, lowest, closing, and adjusted closing values. The goal is to find the total volume, ticker, and return on each stock provided.
 
 ### Analysis
-Before refactoring the code, I started by using some of the original code in order to create the input box, headers, and ticker array. The steps and code I wrote in order to refactor are down below.
+Before refactoring the code, I started by using some of the original code in order to create the input box, headers, and ticker array. The steps and code I wrote in order to refactor are down below as well as the execution times of the new code. The new code takes about a 1/4 of the time of my original code and will be more beneficial with larger amounts of data.
 
     'Format the output sheet on All Stocks Analysis worksheet
     Worksheets("All Stocks Analysis").Activate
@@ -81,5 +81,9 @@ Before refactoring the code, I started by using some of the original code in ord
          If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
             tickerIndex = tickerIndex + 1
         End If
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/97491577/149615267-ee68a87c-47b5-4e70-825e-6d1d49e6c237.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/97491577/149615271-f8f4fa1b-9de2-4c7d-9e51-d0fc57186cc5.png)
 
 ### Results
+![Screenshot 2022-01-15 002236](https://user-images.githubusercontent.com/97491577/149615173-652e076d-e007-4450-8b75-2e3b27446a9d.png)
+![Screenshot 2022-01-15 002256](https://user-images.githubusercontent.com/97491577/149615177-e071cfb6-f796-4c44-9ee3-48400c2757d2.png)
