@@ -9,7 +9,7 @@ The purpose of this project is to refactor a Microsoft Excel VBA code for stocks
 The data that was provided included two sheets with information from 12 different stocks. The sheets contained the ticker, date, and volume as well as the opening, highest, lowest, closing, and adjusted closing values. The goal is to find the total volume, ticker, and return on each stock provided.
 
 ### Analysis
-Before refactoring the code, I started by using some of the original code in order to create the input box, headers, and ticker array. The steps and code I wrote in order to refactor are down below as well as the execution times of the new code. The new code takes about a 1/4 of the time of my original code and will be more beneficial with larger amounts of data.
+Before refactoring the code, I started by using some of the original code in order to create the input box, headers, and ticker array. The steps and code I wrote in order to refactor are down below as well as the execution times of the new code.
 
     'Format the output sheet on All Stocks Analysis worksheet
     Worksheets("All Stocks Analysis").Activate
@@ -92,5 +92,5 @@ The data between 2017 and 2018 show an overall decrease in return apart from the
 
 ## Summary
 
-### Advantages of Refactoring
-The advantage of refactoring code is that makes it cleaner and more organized overall. This will make the code easier to read for the user as well as anyone who has access to it. However, the disadvantages of refactoring code is that it's risky to do if the application is big and if the existing code doesn't have proper test cases. 
+### Advantages and Disadvantages of Refactoring
+The advantage of refactoring code is that makes it cleaner and more organized overall. This will make the code easier to read for the user as well as anyone who has access to it. However, the disadvantages of refactoring code is that it's risky to do if the application is big and if the existing code doesn't have proper test cases. I think overall the refactoring has a lot of benefits in terms of executing tasks quicker. The new code takes about a 1/4 of the time of my original code so it's definitely a viable option. The only downsides are that you are writing extra code to do essentially the same task and that causes more of a risk of errors because of the extra lines of code.
