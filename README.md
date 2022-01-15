@@ -87,3 +87,10 @@ Before refactoring the code, I started by using some of the original code in ord
 ### Results
 ![Screenshot 2022-01-15 002236](https://user-images.githubusercontent.com/97491577/149615173-652e076d-e007-4450-8b75-2e3b27446a9d.png)
 ![Screenshot 2022-01-15 002256](https://user-images.githubusercontent.com/97491577/149615177-e071cfb6-f796-4c44-9ee3-48400c2757d2.png)
+
+The data between 2017 and 2018 show an overall decrease in return apart from the tickers "RUN" and "EPNH". 
+
+## Summary
+
+### Advantages of Refactoring
+The advantage of refactoring code is that makes it cleaner and more organized overall. This will make the code easier to read for the user as well as anyone who has access to it. However, the disadvantages of refactoring code is that it's risky to do if the application is big and if the existing code doesn't have proper test cases. 
